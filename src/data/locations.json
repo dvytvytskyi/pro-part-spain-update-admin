@@ -1,0 +1,752 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "name": "Spain"
+        }
+    ],
+    "cities": [
+        {
+            "id": 1,
+            "name": "Estepona",
+            "countryId": 1
+        },
+        {
+            "id": 2,
+            "name": "Málaga",
+            "countryId": 1
+        },
+        {
+            "id": 3,
+            "name": "Marbella",
+            "countryId": 1
+        },
+        {
+            "id": 4,
+            "name": "Fuengirolla",
+            "countryId": 1
+        },
+        {
+            "id": 5,
+            "name": "Manilva",
+            "countryId": 1
+        },
+        {
+            "id": 6,
+            "name": "Casares",
+            "countryId": 1
+        },
+        {
+            "id": 7,
+            "name": "Sevilla",
+            "countryId": 1
+        },
+        {
+            "id": 8,
+            "name": "Mijas",
+            "countryId": 1
+        },
+        {
+            "id": 9,
+            "name": "Benahavis",
+            "countryId": 1
+        },
+        {
+            "id": 10,
+            "name": "Benalmadena",
+            "countryId": 1
+        },
+        {
+            "id": 11,
+            "name": "Torremolinos",
+            "countryId": 1
+        }
+    ],
+    "areas": [
+        {
+            "id": 101,
+            "name": "Benavista",
+            "cityId": 1
+        },
+        {
+            "id": 102,
+            "name": "El Paraiso",
+            "cityId": 1
+        },
+        {
+            "id": 103,
+            "name": "Costalita",
+            "cityId": 1
+        },
+        {
+            "id": 104,
+            "name": "Valle Romano",
+            "cityId": 1
+        },
+        {
+            "id": 105,
+            "name": "El Padron",
+            "cityId": 1
+        },
+        {
+            "id": 106,
+            "name": "Hacienda del Sol",
+            "cityId": 1
+        },
+        {
+            "id": 107,
+            "name": "Selwo",
+            "cityId": 1
+        },
+        {
+            "id": 108,
+            "name": "Atalaya",
+            "cityId": 1
+        },
+        {
+            "id": 109,
+            "name": "Benamara",
+            "cityId": 1
+        },
+        {
+            "id": 110,
+            "name": "Guadalmina Alta",
+            "cityId": 1
+        },
+        {
+            "id": 111,
+            "name": "El Presidente",
+            "cityId": 1
+        },
+        {
+            "id": 201,
+            "name": "Torremar",
+            "cityId": 2
+        },
+        {
+            "id": 202,
+            "name": "Alhaurín de la Torre",
+            "cityId": 2
+        },
+        {
+            "id": 203,
+            "name": "Torremolinos Centro",
+            "cityId": 2
+        },
+        {
+            "id": 204,
+            "name": "Cártama",
+            "cityId": 2
+        },
+        {
+            "id": 205,
+            "name": "Málaga Este",
+            "cityId": 2
+        },
+        {
+            "id": 206,
+            "name": "Benaoján",
+            "cityId": 2
+        },
+        {
+            "id": 207,
+            "name": "Antequera",
+            "cityId": 2
+        },
+        {
+            "id": 208,
+            "name": "Ojén",
+            "cityId": 2
+        },
+        {
+            "id": 209,
+            "name": "Fuente de Piedra",
+            "cityId": 2
+        },
+        {
+            "id": 210,
+            "name": "Júzcar",
+            "cityId": 2
+        },
+        {
+            "id": 211,
+            "name": "Genalguacil",
+            "cityId": 2
+        },
+        {
+            "id": 212,
+            "name": "Puerto de la Torre",
+            "cityId": 2
+        },
+        {
+            "id": 213,
+            "name": "Arriateg",
+            "cityId": 2
+        },
+        {
+            "id": 214,
+            "name": "El Burgo",
+            "cityId": 2
+        },
+        {
+            "id": 215,
+            "name": "Gaucín",
+            "cityId": 2
+        },
+        {
+            "id": 216,
+            "name": "Torremolinos",
+            "cityId": 2
+        },
+        {
+            "id": 217,
+            "name": "Lauro Golf",
+            "cityId": 2
+        },
+        {
+            "id": 218,
+            "name": "La Mairena",
+            "cityId": 2
+        },
+        {
+            "id": 219,
+            "name": "Archidona",
+            "cityId": 2
+        },
+        {
+            "id": 220,
+            "name": "Monda",
+            "cityId": 2
+        },
+        {
+            "id": 221,
+            "name": "El Chorro",
+            "cityId": 2
+        },
+        {
+            "id": 222,
+            "name": "Carratraca",
+            "cityId": 2
+        },
+        {
+            "id": 223,
+            "name": "Ronda",
+            "cityId": 2
+        },
+        {
+            "id": 224,
+            "name": "Villanueva De La Concepcion",
+            "cityId": 2
+        },
+        {
+            "id": 225,
+            "name": "Mollina",
+            "cityId": 2
+        },
+        {
+            "id": 226,
+            "name": "Almogía",
+            "cityId": 2
+        },
+        {
+            "id": 227,
+            "name": "Torrenueva",
+            "cityId": 2
+        },
+        {
+            "id": 228,
+            "name": "Villanueva del Rosario",
+            "cityId": 2
+        },
+        {
+            "id": 229,
+            "name": "El Chaparral",
+            "cityId": 2
+        },
+        {
+            "id": 230,
+            "name": "Cuevas del Becerro",
+            "cityId": 2
+        },
+        {
+            "id": 231,
+            "name": "Zalea",
+            "cityId": 2
+        },
+        {
+            "id": 232,
+            "name": "Alhaurín el Grande",
+            "cityId": 2
+        },
+        {
+            "id": 233,
+            "name": "Ardales",
+            "cityId": 2
+        },
+        {
+            "id": 234,
+            "name": "Tolox",
+            "cityId": 2
+        },
+        {
+            "id": 235,
+            "name": "Cortes de la Frontera",
+            "cityId": 2
+        },
+        {
+            "id": 236,
+            "name": "La Duquesa",
+            "cityId": 2
+        },
+        {
+            "id": 237,
+            "name": "El Faro",
+            "cityId": 2
+        },
+        {
+            "id": 238,
+            "name": "Playamar",
+            "cityId": 2
+        },
+        {
+            "id": 239,
+            "name": "Campillos",
+            "cityId": 2
+        },
+        {
+            "id": 240,
+            "name": "Miraflores",
+            "cityId": 2
+        },
+        {
+            "id": 241,
+            "name": "Algatocin",
+            "cityId": 2
+        },
+        {
+            "id": 242,
+            "name": "Benarrabá",
+            "cityId": 2
+        },
+        {
+            "id": 243,
+            "name": "Valle de Abdalajis",
+            "cityId": 2
+        },
+        {
+            "id": 244,
+            "name": "Montejaque",
+            "cityId": 2
+        },
+        {
+            "id": 245,
+            "name": "Alpandeire",
+            "cityId": 2
+        },
+        {
+            "id": 246,
+            "name": "San Luis de Sabinillas",
+            "cityId": 2
+        },
+        {
+            "id": 247,
+            "name": "Guaro",
+            "cityId": 2
+        },
+        {
+            "id": 248,
+            "name": "Alora",
+            "cityId": 2
+        },
+        {
+            "id": 249,
+            "name": "Málaga Centro",
+            "cityId": 2
+        },
+        {
+            "id": 250,
+            "name": "Coín",
+            "cityId": 2
+        },
+        {
+            "id": 251,
+            "name": "Pizarra",
+            "cityId": 2
+        },
+        {
+            "id": 252,
+            "name": "Benalauría",
+            "cityId": 2
+        },
+        {
+            "id": 253,
+            "name": "Yunquera",
+            "cityId": 2
+        },
+        {
+            "id": 254,
+            "name": "Casabermeja",
+            "cityId": 2
+        },
+        {
+            "id": 255,
+            "name": "Estacion de Cartama",
+            "cityId": 2
+        },
+        {
+            "id": 256,
+            "name": "Jubrique",
+            "cityId": 2
+        },
+        {
+            "id": 257,
+            "name": "Alozaina",
+            "cityId": 2
+        },
+        {
+            "id": 258,
+            "name": "Cañete la Real",
+            "cityId": 2
+        },
+        {
+            "id": 259,
+            "name": "Estación de Gaucin",
+            "cityId": 2
+        },
+        {
+            "id": 260,
+            "name": "Villafranco del Guadalhorce",
+            "cityId": 2
+        },
+        {
+            "id": 261,
+            "name": "Casarabonela",
+            "cityId": 2
+        },
+        {
+            "id": 262,
+            "name": "Bel Air",
+            "cityId": 2
+        },
+        {
+            "id": 263,
+            "name": "Jimera de Líbar",
+            "cityId": 2
+        },
+        {
+            "id": 301,
+            "name": "Río Real",
+            "cityId": 3
+        },
+        {
+            "id": 302,
+            "name": "Las Chapas",
+            "cityId": 3
+        },
+        {
+            "id": 303,
+            "name": "La Quinta",
+            "cityId": 3
+        },
+        {
+            "id": 304,
+            "name": "Santa Clara",
+            "cityId": 3
+        },
+        {
+            "id": 305,
+            "name": "Hacienda Las Chapas",
+            "cityId": 3
+        },
+        {
+            "id": 306,
+            "name": "Los Monteros",
+            "cityId": 3
+        },
+        {
+            "id": 307,
+            "name": "Carib Playa",
+            "cityId": 3
+        },
+        {
+            "id": 308,
+            "name": "Costabella",
+            "cityId": 3
+        },
+        {
+            "id": 309,
+            "name": "Torre Real",
+            "cityId": 3
+        },
+        {
+            "id": 310,
+            "name": "Altos de los Monteros",
+            "cityId": 3
+        },
+        {
+            "id": 311,
+            "name": "Sierra Blanca",
+            "cityId": 3
+        },
+        {
+            "id": 312,
+            "name": "Nagüeles",
+            "cityId": 3
+        },
+        {
+            "id": 313,
+            "name": "Nueva Andalucía",
+            "cityId": 3
+        },
+        {
+            "id": 314,
+            "name": "Elviria",
+            "cityId": 3
+        },
+        {
+            "id": 315,
+            "name": "Aloha",
+            "cityId": 3
+        },
+        {
+            "id": 316,
+            "name": "Puerto de Cabopino",
+            "cityId": 3
+        },
+        {
+            "id": 317,
+            "name": "The Golden Mile",
+            "cityId": 3
+        },
+        {
+            "id": 318,
+            "name": "Puerto Banús",
+            "cityId": 3
+        },
+        {
+            "id": 319,
+            "name": "New Golden Mile",
+            "cityId": 3
+        },
+        {
+            "id": 320,
+            "name": "Cortijo Blanco",
+            "cityId": 3
+        },
+        {
+            "id": 321,
+            "name": "Artola",
+            "cityId": 3
+        },
+        {
+            "id": 322,
+            "name": "Los Almendros",
+            "cityId": 3
+        },
+        {
+            "id": 323,
+            "name": "Bahía de Marbella",
+            "cityId": 3
+        },
+        {
+            "id": 324,
+            "name": "Marbesa",
+            "cityId": 3
+        },
+        {
+            "id": 325,
+            "name": "Cabopino",
+            "cityId": 3
+        },
+        {
+            "id": 326,
+            "name": "Reserva de Marbella",
+            "cityId": 3
+        },
+        {
+            "id": 401,
+            "name": "Las Lagunas",
+            "cityId": 4
+        },
+        {
+            "id": 402,
+            "name": "Carvajal",
+            "cityId": 4
+        },
+        {
+            "id": 403,
+            "name": "Los Boliches",
+            "cityId": 4
+        },
+        {
+            "id": 404,
+            "name": "Los Pacos",
+            "cityId": 4
+        },
+        {
+            "id": 405,
+            "name": "Torreblanca",
+            "cityId": 4
+        },
+        {
+            "id": 501,
+            "name": "Punta Chullera",
+            "cityId": 5
+        },
+        {
+            "id": 601,
+            "name": "Casares Playa",
+            "cityId": 6
+        },
+        {
+            "id": 602,
+            "name": "Casares Pueblo",
+            "cityId": 6
+        },
+        {
+            "id": 603,
+            "name": "Doña Julia",
+            "cityId": 6
+        },
+        {
+            "id": 701,
+            "name": "La Campana",
+            "cityId": 7
+        },
+        {
+            "id": 801,
+            "name": "La Cala",
+            "cityId": 8
+        },
+        {
+            "id": 802,
+            "name": "Campo Mijas",
+            "cityId": 8
+        },
+        {
+            "id": 803,
+            "name": "La Cala de Mijas",
+            "cityId": 8
+        },
+        {
+            "id": 804,
+            "name": "Valtocado",
+            "cityId": 8
+        },
+        {
+            "id": 805,
+            "name": "Riviera del Sol",
+            "cityId": 8
+        },
+        {
+            "id": 806,
+            "name": "Sierrezuela",
+            "cityId": 8
+        },
+        {
+            "id": 807,
+            "name": "Calanova Golf",
+            "cityId": 8
+        },
+        {
+            "id": 808,
+            "name": "Mijas Costa",
+            "cityId": 8
+        },
+        {
+            "id": 809,
+            "name": "La Cala Golf",
+            "cityId": 8
+        },
+        {
+            "id": 810,
+            "name": "La Cala Hills",
+            "cityId": 8
+        },
+        {
+            "id": 811,
+            "name": "Calypso",
+            "cityId": 8
+        },
+        {
+            "id": 812,
+            "name": "Mijas Golf",
+            "cityId": 8
+        },
+        {
+            "id": 813,
+            "name": "Cerros del Aguila",
+            "cityId": 8
+        },
+        {
+            "id": 901,
+            "name": "La Heredia",
+            "cityId": 9
+        },
+        {
+            "id": 902,
+            "name": "Los Arqueros",
+            "cityId": 9
+        },
+        {
+            "id": 903,
+            "name": "La Zagaleta",
+            "cityId": 9
+        },
+        {
+            "id": 904,
+            "name": "El Madroñal",
+            "cityId": 9
+        },
+        {
+            "id": 905,
+            "name": "Los Flamingos",
+            "cityId": 9
+        },
+        {
+            "id": 906,
+            "name": "Monte Halcones",
+            "cityId": 9
+        },
+        {
+            "id": 1001,
+            "name": "Benalmadena Pueblo",
+            "cityId": 10
+        },
+        {
+            "id": 1002,
+            "name": "La Capellania",
+            "cityId": 10
+        },
+        {
+            "id": 1003,
+            "name": "Arroyo de la Miel",
+            "cityId": 10
+        },
+        {
+            "id": 1004,
+            "name": "Torremuelle",
+            "cityId": 10
+        },
+        {
+            "id": 1005,
+            "name": "Benalmadena Costa",
+            "cityId": 10
+        },
+        {
+            "id": 1006,
+            "name": "Torrequebrada",
+            "cityId": 10
+        },
+        {
+            "id": 1101,
+            "name": "La Carihuela",
+            "cityId": 11
+        },
+        {
+            "id": 1102,
+            "name": "El Pinillo",
+            "cityId": 11
+        }
+    ]
+}

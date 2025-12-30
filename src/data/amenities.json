@@ -1,0 +1,574 @@
+[
+    {
+        "id": 1,
+        "name": "24 Hour Reception"
+    },
+    {
+        "id": 2,
+        "name": "24 Hour Security"
+    },
+    {
+        "id": 3,
+        "name": "Access for people with reduced mobility"
+    },
+    {
+        "id": 4,
+        "name": "Air Conditioning"
+    },
+    {
+        "id": 5,
+        "name": "Alarm System"
+    },
+    {
+        "id": 6,
+        "name": "Bar"
+    },
+    {
+        "id": 7,
+        "name": "Barbeque"
+    },
+    {
+        "id": 8,
+        "name": "Bargain"
+    },
+    {
+        "id": 9,
+        "name": "Basement"
+    },
+    {
+        "id": 10,
+        "name": "Beach"
+    },
+    {
+        "id": 11,
+        "name": "Beachfront"
+    },
+    {
+        "id": 12,
+        "name": "Beachside"
+    },
+    {
+        "id": 13,
+        "name": "Car Hire Facility"
+    },
+    {
+        "id": 14,
+        "name": "Central Heating"
+    },
+    {
+        "id": 15,
+        "name": "Cheap"
+    },
+    {
+        "id": 16,
+        "name": "Children`s Pool"
+    },
+    {
+        "id": 17,
+        "name": "Close To Forest"
+    },
+    {
+        "id": 18,
+        "name": "Close To Golf"
+    },
+    {
+        "id": 19,
+        "name": "Close To Marina"
+    },
+    {
+        "id": 20,
+        "name": "Close To Port"
+    },
+    {
+        "id": 21,
+        "name": "Close To Schools"
+    },
+    {
+        "id": 22,
+        "name": "Close To Sea"
+    },
+    {
+        "id": 23,
+        "name": "Close To Shops"
+    },
+    {
+        "id": 24,
+        "name": "Close To Skiing"
+    },
+    {
+        "id": 25,
+        "name": "Close To Town"
+    },
+    {
+        "id": 26,
+        "name": "Cold A/C"
+    },
+    {
+        "id": 27,
+        "name": "Commercial Area"
+    },
+    {
+        "id": 28,
+        "name": "Communal"
+    },
+    {
+        "id": 29,
+        "name": "Contemporary"
+    },
+    {
+        "id": 30,
+        "name": "Country"
+    },
+    {
+        "id": 31,
+        "name": "Courtesy Bus"
+    },
+    {
+        "id": 32,
+        "name": "Courtyard"
+    },
+    {
+        "id": 33,
+        "name": "Covered"
+    },
+    {
+        "id": 34,
+        "name": "Covered Terrace"
+    },
+    {
+        "id": 35,
+        "name": "Day Care"
+    },
+    {
+        "id": 36,
+        "name": "Distressed"
+    },
+    {
+        "id": 37,
+        "name": "Domotics"
+    },
+    {
+        "id": 38,
+        "name": "Double Glazing"
+    },
+    {
+        "id": 39,
+        "name": "Drinkable Water"
+    },
+    {
+        "id": 40,
+        "name": "EV charge point"
+    },
+    {
+        "id": 41,
+        "name": "East"
+    },
+    {
+        "id": 42,
+        "name": "Easy Maintenance"
+    },
+    {
+        "id": 43,
+        "name": "Electric Blinds"
+    },
+    {
+        "id": 44,
+        "name": "Electricity"
+    },
+    {
+        "id": 45,
+        "name": "Ensuite Bathroom"
+    },
+    {
+        "id": 46,
+        "name": "Entry Phone"
+    },
+    {
+        "id": 47,
+        "name": "Excellent"
+    },
+    {
+        "id": 48,
+        "name": "Fair"
+    },
+    {
+        "id": 49,
+        "name": "Fiber Optic"
+    },
+    {
+        "id": 50,
+        "name": "Fireplace"
+    },
+    {
+        "id": 51,
+        "name": "Fitted Wardrobes"
+    },
+    {
+        "id": 52,
+        "name": "Forest"
+    },
+    {
+        "id": 53,
+        "name": "Front Line Beach Complex"
+    },
+    {
+        "id": 54,
+        "name": "Frontline Golf"
+    },
+    {
+        "id": 55,
+        "name": "Fully Fitted"
+    },
+    {
+        "id": 56,
+        "name": "Fully Furnished"
+    },
+    {
+        "id": 57,
+        "name": "Games Room"
+    },
+    {
+        "id": 58,
+        "name": "Garage"
+    },
+    {
+        "id": 59,
+        "name": "Garden"
+    },
+    {
+        "id": 60,
+        "name": "Gas"
+    },
+    {
+        "id": 61,
+        "name": "Gated Complex"
+    },
+    {
+        "id": 62,
+        "name": "Golf"
+    },
+    {
+        "id": 63,
+        "name": "Good"
+    },
+    {
+        "id": 64,
+        "name": "Guest Apartment"
+    },
+    {
+        "id": 65,
+        "name": "Guest House"
+    },
+    {
+        "id": 66,
+        "name": "Gym"
+    },
+    {
+        "id": 67,
+        "name": "Heated"
+    },
+    {
+        "id": 68,
+        "name": "Holiday Homes"
+    },
+    {
+        "id": 69,
+        "name": "Hot A/C"
+    },
+    {
+        "id": 70,
+        "name": "Indoor"
+    },
+    {
+        "id": 71,
+        "name": "Investment"
+    },
+    {
+        "id": 72,
+        "name": "Jacuzzi"
+    },
+    {
+        "id": 73,
+        "name": "Kitchen-Lounge"
+    },
+    {
+        "id": 74,
+        "name": "Lake"
+    },
+    {
+        "id": 75,
+        "name": "Landscaped"
+    },
+    {
+        "id": 76,
+        "name": "Lift"
+    },
+    {
+        "id": 77,
+        "name": "Luxury"
+    },
+    {
+        "id": 78,
+        "name": "Marble Flooring"
+    },
+    {
+        "id": 79,
+        "name": "Marina"
+    },
+    {
+        "id": 80,
+        "name": "More Than One"
+    },
+    {
+        "id": 81,
+        "name": "Mountain"
+    },
+    {
+        "id": 82,
+        "name": "Mountain Pueblo"
+    },
+    {
+        "id": 83,
+        "name": "Near Church"
+    },
+    {
+        "id": 84,
+        "name": "Near Mosque"
+    },
+    {
+        "id": 85,
+        "name": "Near Transport"
+    },
+    {
+        "id": 86,
+        "name": "New Construction"
+    },
+    {
+        "id": 87,
+        "name": "New Development"
+    },
+    {
+        "id": 88,
+        "name": "North"
+    },
+    {
+        "id": 89,
+        "name": "North East"
+    },
+    {
+        "id": 90,
+        "name": "North West"
+    },
+    {
+        "id": 91,
+        "name": "Not Fitted"
+    },
+    {
+        "id": 92,
+        "name": "Not Furnished"
+    },
+    {
+        "id": 93,
+        "name": "Off Plan"
+    },
+    {
+        "id": 94,
+        "name": "Open"
+    },
+    {
+        "id": 95,
+        "name": "Optional"
+    },
+    {
+        "id": 96,
+        "name": "Paddle Tennis"
+    },
+    {
+        "id": 97,
+        "name": "Panoramic"
+    },
+    {
+        "id": 98,
+        "name": "Part Furnished"
+    },
+    {
+        "id": 99,
+        "name": "Partially Fitted"
+    },
+    {
+        "id": 100,
+        "name": "Photovoltaic solar panels"
+    },
+    {
+        "id": 101,
+        "name": "Pool"
+    },
+    {
+        "id": 102,
+        "name": "Port"
+    },
+    {
+        "id": 103,
+        "name": "Pre Installed A/C"
+    },
+    {
+        "id": 104,
+        "name": "Private"
+    },
+    {
+        "id": 105,
+        "name": "Private Terrace"
+    },
+    {
+        "id": 106,
+        "name": "Recently Refurbished"
+    },
+    {
+        "id": 107,
+        "name": "Recently Renovated"
+    },
+    {
+        "id": 108,
+        "name": "Reduced"
+    },
+    {
+        "id": 109,
+        "name": "Renovation Required"
+    },
+    {
+        "id": 110,
+        "name": "Repossession"
+    },
+    {
+        "id": 111,
+        "name": "Resale"
+    },
+    {
+        "id": 112,
+        "name": "Restaurant On Site"
+    },
+    {
+        "id": 113,
+        "name": "Restoration Required"
+    },
+    {
+        "id": 114,
+        "name": "Room For Pool"
+    },
+    {
+        "id": 115,
+        "name": "Safe"
+    },
+    {
+        "id": 116,
+        "name": "Satellite TV"
+    },
+    {
+        "id": 117,
+        "name": "Sauna"
+    },
+    {
+        "id": 118,
+        "name": "Sea"
+    },
+    {
+        "id": 119,
+        "name": "Ski"
+    },
+    {
+        "id": 120,
+        "name": "Solar water heating"
+    },
+    {
+        "id": 121,
+        "name": "Solarium"
+    },
+    {
+        "id": 122,
+        "name": "South"
+    },
+    {
+        "id": 123,
+        "name": "South East"
+    },
+    {
+        "id": 124,
+        "name": "South West"
+    },
+    {
+        "id": 125,
+        "name": "Stables"
+    },
+    {
+        "id": 126,
+        "name": "Staff Accommodation"
+    },
+    {
+        "id": 127,
+        "name": "Storage Room"
+    },
+    {
+        "id": 128,
+        "name": "Street"
+    },
+    {
+        "id": 129,
+        "name": "Suburban"
+    },
+    {
+        "id": 130,
+        "name": "Telephone"
+    },
+    {
+        "id": 131,
+        "name": "Tennis Court"
+    },
+    {
+        "id": 132,
+        "name": "Town"
+    },
+    {
+        "id": 133,
+        "name": "U/F Heating"
+    },
+    {
+        "id": 134,
+        "name": "U/F/H Bathrooms"
+    },
+    {
+        "id": 135,
+        "name": "Underground"
+    },
+    {
+        "id": 136,
+        "name": "Urban"
+    },
+    {
+        "id": 137,
+        "name": "Urbanisation"
+    },
+    {
+        "id": 138,
+        "name": "Utility Room"
+    },
+    {
+        "id": 139,
+        "name": "Village"
+    },
+    {
+        "id": 140,
+        "name": "West"
+    },
+    {
+        "id": 141,
+        "name": "WiFi"
+    },
+    {
+        "id": 142,
+        "name": "With Planning Permission"
+    },
+    {
+        "id": 143,
+        "name": "Wood Flooring"
+    }
+]
