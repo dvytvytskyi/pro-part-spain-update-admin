@@ -26,7 +26,7 @@ export async function GET(request: Request) {
         return NextResponse.json(cachedResponse.response);
     }
 
-    const type = searchParams.get('type');
+    const type = searchParams.get('type') || searchParams.get('market');
     const search = searchParams.get('search');
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '20');
@@ -38,9 +38,11 @@ export async function GET(request: Request) {
         return [...new Set([...values, ...bracketValues])].filter(Boolean);
     };
 
+    const towns = [...getMultiParam('town'), ...getMultiParam('location')];
+
     const subtypes = getMultiParam('subtype'); // Apartment, House, etc.
-    const priceMin = parseFloat(searchParams.get('priceMin') || '0');
-    const priceMax = parseFloat(searchParams.get('priceMax') || '999999999');
+    const priceMin = parseFloat(searchParams.get('priceMin') || searchParams.get('minPrice') || '0');
+    const priceMax = parseFloat(searchParams.get('priceMax') || searchParams.get('maxPrice') || '999999999');
     const sizeMin = parseFloat(searchParams.get('sizeMin') || '0');
     const sizeMax = parseFloat(searchParams.get('sizeMax') || '999999999');
 
@@ -50,7 +52,6 @@ export async function GET(request: Request) {
     const baths = searchParams.get('baths');
     const amenities = searchParams.get('amenities')?.split(',').filter(Boolean) || [];
     const sort = searchParams.get('sort');
-    const towns = getMultiParam('town');
 
     // API Key Validation for external requests
     const apiKey = request.headers.get('x-api-key');
@@ -79,9 +80,11 @@ export async function GET(request: Request) {
         let filteredProjects = cachedProjects ? [...cachedProjects] : [];
 
         // 1. Tab Filtering (Market Type)
-        // 1. Tab Filtering (Market Type)
+        // Normalize input type
+        const normalizedType = type?.toLowerCase();
+
         // Accept "New Building" as alias for "Off-Plan"
-        if (type === "Off-Plan" || type === "New Building") {
+        if (normalizedType === "off-plan" || normalizedType === "new building" || normalizedType === "new-building") {
             filteredProjects = filteredProjects.filter((project: any) =>
                 project.market === 'off-plan' ||
                 project.property_type?.toLowerCase() === "new-building" ||
@@ -89,14 +92,14 @@ export async function GET(request: Request) {
                 project.status?.toLowerCase() === "off-plan" ||
                 (project.reference_id && newBuildingIds.includes(project.reference_id))
             );
-        } else if (type === "Secondary" || type === "Resale") {
+        } else if (normalizedType === "secondary" || normalizedType === "resale") {
             filteredProjects = filteredProjects.filter((project: any) =>
                 (project.market === 'resale' ||
                     project.property_type?.toLowerCase() === "secondary" ||
                     project.status?.toLowerCase() === "secondary") &&
                 !(project.reference_id && newBuildingIds.includes(project.reference_id))
             );
-        } else if (type === "Rent") {
+        } else if (normalizedType === "rent") {
             filteredProjects = filteredProjects.filter((project: any) =>
                 project.market === 'rent' ||
                 project.property_type?.toLowerCase() === "rent" ||
